@@ -16,5 +16,11 @@ public class Main {
         MedicamentSpital medicamentSpital = new MedicamentSpital("Medi2", 45);
         AdaptorMedicament adaptorMedicament = new AdaptorMedicament(medicamentSpital);
         vindeMedicamente(adaptorMedicament);
+
+        MedicamentFarmacie medicamentFarmacie2 = new MedicamentFarmacie("Nurofen", 20, true, "12.12.2029");
+        vindeMedicamente(medicamentFarmacie2);
+        MedicamentSpital medicamentSpital2 = new MedicamentSpital("Ibuprofen", 30);
+        AdaptorMedicament adaptorMedicament2 = new AdaptorMedicament(medicamentSpital2);
+        vindeMedicamente(adaptorMedicament2);
     }
 }
