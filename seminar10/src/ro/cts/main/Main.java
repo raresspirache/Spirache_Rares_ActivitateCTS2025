@@ -13,12 +13,14 @@ public class Main {
         StructuraAbs s1=new Sectie("Sectia 1",3);
         StructuraAbs s2=new Sectie("Sectia 2",5);
         StructuraAbs s3=new Sectie("Sectia 3",8);
+        StructuraAbs s4=new Sectie("Sectia 4",10);
 
         d1.adaugaNod(d2);
 
         d2.adaugaNod(s1);
         d2.adaugaNod(s2);
         d2.adaugaNod(s3);
+        d2.adaugaNod(s4);
 
         System.out.println(d1.calculeazaNrAngajati());
         System.out.println(d2.calculeazaNrAngajati());
