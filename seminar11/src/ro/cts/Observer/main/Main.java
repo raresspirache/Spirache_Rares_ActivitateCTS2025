@@ -11,11 +11,13 @@ public class Main {
         Observer calator1 = new Calator("calator1");
         Observer calator2 = new Calator("calator2");
         Observer calator3 = new Calator("calator3");
+        Observer calator4 = new Calator("calator4");
 
         MijlocTransport autobuz = new Autobuz(101);
         autobuz.adaugaObserver(calator1);
         autobuz.adaugaObserver(calator2);
         autobuz.adaugaObserver(calator3);
+        autobuz.adaugaObserver(calator4);
         autobuz.pleacaDeLaCapat();
         autobuz.stergeObserver(calator2);
         ((Autobuz)autobuz).schimbaTraseul();
