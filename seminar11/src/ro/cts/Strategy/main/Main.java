@@ -13,6 +13,7 @@ public class Main {
         IMetodaPlata plataSMS = new PlataSMS();
 
         Calator calator = new Calator("Cata");
+        Calator calator2 = new Calator("Dan");
         calator.platesteCalatorie(3);
 
         calator.setMetodaPlata(cardCalatorie);
@@ -22,5 +23,13 @@ public class Main {
 
         calator.setMetodaPlata(plataSMS);
         calator.platesteCalatorie(3);
+
+        calator2.platesteCalatorie(5);
+        calator2.setMetodaPlata(cardCalatorie);
+        calator2.platesteCalatorie(5);
+        calator2.platesteCalatorie(5);
+        calator2.platesteCalatorie(5);
+        calator2.setMetodaPlata(plataSMS);
+        calator2.platesteCalatorie(5);
     }
 }
