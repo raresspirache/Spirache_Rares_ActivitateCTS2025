@@ -18,6 +18,7 @@ public class Main {
         troleibuz.recomandaTransport(12);
         troleibuz.recomandaTransport(7);
         troleibuz.recomandaTransport(4);
+        troleibuz.recomandaTransport(10);
 
     }
 }

@@ -21,5 +21,14 @@ public class Main {
         System.out.println();
         tramvai2.parcurgeRetur();
 
+        TramvaiAbs tramvai3=new TramvaiTemporar(25);
+
+        System.out.println();
+        tramvai3.parcurgeTur();
+
+        System.out.println();
+        tramvai3.parcurgeRetur();
+
+
     }
 }
